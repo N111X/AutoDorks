@@ -1,4 +1,3 @@
-```markdown
 # Herramienta Avanzada para Dorking y Automatizacion de Busquedas
 
 Desarrollado por: **N111X**
@@ -110,5 +109,3 @@ Asegurate de configurar tus claves API y el ID del motor de busqueda en el archi
 ## Licencia
 
 Este proyecto esta licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para mas detalles.
-
-```
