@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Google Dorks - Hecho por NIIIX</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #f8f9fa;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 20px;
+        }
+        h1, h5 {
+            text-align: center;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+        }
+        .resultado {
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            transition: all 0.3s ease-in-out;
+        }
+        .resultado:hover {
+            background-color: #2a2a2a;
+            box-shadow: 0 0 15px #00ff00;
+        }
+        .resultado h5 {
+            color: #00ff00;
+            margin-bottom: 10px;
+        }
+        .resultado p {
+            font-style: italic;
+            color: #b3b3b3;
+        }
+        .resultado a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+        .resultado a:hover {
+            text-decoration: underline;
+        }
+        .indice {
+            font-weight: bold;
+            color: #ff4500;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #1e1e1e;
+            border-top: 2px solid #00ff00;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+        footer p span {
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados de Google Dorks</h1>
+        <div class="text-center mb-4">
+            <p><strong>Hecho por: <span style="color: #ff4500;">NIIIX</span> - <3 </strong></p>
+        </div>
+        {{ resultados }}
+    </div>
+    <footer>
+        <p>Desarrollado con <span>💻</span> y <span>💚</span> por <strong>NIIIX</strong></p>
+        <p>© 2025 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
