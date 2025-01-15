@@ -8,7 +8,15 @@ La herramienta **DorksAuto.py** permite realizar **Dorking** y **automatizacion 
 
 - Python 3.x
 - Selenium (si se usa la opcion `--selenium`)
-- Librerias necesarias: `argparse`, `requests`, `beautifulsoup4`, `selenium` (si se usa `--selenium`)
+- Librerias necesarias: 
+  ```bash
+  requests~=2.32.3
+  python-dotenv~=1.0.1
+  rich~=13.9.4
+  gpt4all~=2.8.2
+  openai~=1.59.7
+  transformers~=4.48.0
+
 
 ## Uso
 
