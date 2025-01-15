@@ -113,7 +113,3 @@ Este comando realiza una busqueda con el Dork especificado, obtiene 5 paginas de
 ## Configuracion del archivo `.env`
 
 Asegurate de configurar tus claves API y el ID del motor de busqueda en el archivo `.env` generado al usar la opcion `-c`.
-
-## Licencia
-
-Este proyecto esta licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para mas detalles.
